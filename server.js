@@ -13,7 +13,7 @@ app.get('/health', (req, res) => {
 
 app.get('/', (req, res) => {
     res.json({
-        message: 'Welcome to the sample nodejs app!',
+        message: 'Welcome to the sample nodejs app! Webhook Test',
         version: '1.0.0',
         endpoints: {
             health: '/health',
